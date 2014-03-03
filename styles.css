@@ -83,3 +83,22 @@ li.tag-body:before {
     z-index: -1;    
 }
 
+/*Create hole*/
+li.tag-body:after {
+    content:''; 
+    width:8px;
+    height:8px; 
+    background:#2f3b44;
+    border-radius:20px;
+    position:absolute;
+    top:12px;
+    left:-4px;
+    z-index:9999;
+    
+    /*Create hole effect*/
+    -webkit-box-shadow: inset -1px 2px 2px -1px rgba(30, 30, 30, 1);
+    -moz-box-shadow:    inset -1px 2px 2px -1px rgba(30, 30, 30, 1);
+    box-shadow:         inset -1px 2px 2px -1px rgba(30, 30, 30, 1);
+    border-bottom: 1px solid rgba(225,225,225,0.4);    
+}
+
