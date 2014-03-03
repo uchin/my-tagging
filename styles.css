@@ -102,3 +102,11 @@ li.tag-body:after {
     border-bottom: 1px solid rgba(225,225,225,0.4);    
 }
 
+/*Hover Effect*/
+li.tag-body:hover, li.tag-body:hover:before{    
+   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(118,123,127,0.7)), to(rgba(64,72,80,0.7)));
+   background-image: -webkit-linear-gradient(rgba(118,123,127,0.7), rgba(64,72,80,0.7));
+   background-image: -moz-linear-gradient(rgba(118,123,127,0.7), rgba(64,72,80,0.7));
+   background-image: -o-linear-gradient(rgba(118,123,127,0.7), rgba(64,72,80,0.7));
+   background-image: linear-gradient(rgba(118,123,127,0.7), rgba(64,72,80,0.7)), url(images/bg-1.png);   
+}
